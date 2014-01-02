@@ -1,4 +1,4 @@
-package net.appvanced.plugins;
+package net.appvanced;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaPlugin;

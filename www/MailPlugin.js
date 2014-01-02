@@ -1,4 +1,4 @@
-cordova.define("net.appvanced.plugins.MailPlugin", function(require, exports, module) {
+cordova.define("net/appvanced/mailplugin", function(require, exports, module) {
 	var cordovaRef = require('cordova');
 
 	/**
@@ -11,7 +11,7 @@ cordova.define("net.appvanced.plugins.MailPlugin", function(require, exports, mo
 	/**
 	 * Send an email message
 	 *
-	 * @param {String}   text      The content to copy to the clipboard
+	 * @param {Object}   options   Mail send options
 	 * @param {Function} onSuccess The function to call in case of success (takes the copied text as argument)
 	 * @param {Function} onFail    The function to call in case of error
 	 */
@@ -35,6 +35,6 @@ cordova.define("net.appvanced.plugins.MailPlugin", function(require, exports, mo
 	};
 
 	// Register the plugin
-	var mailPlugin = new MailPlugin();
-	module.exports = mailPlugin;
+	var mailplugin = new MailPlugin();
+	module.exports = mailplugin;
 });

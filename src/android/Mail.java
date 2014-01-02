@@ -1,4 +1,4 @@
-package net.appvanced.plugins;
+package net.appvanced;
 
 import java.io.File;
 import java.util.Date;
